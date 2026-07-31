@@ -1,0 +1,50 @@
+.trustSection {
+    margin-top: 300px;
+}
+
+.sectionHead {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Lora";
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 580px);
+    justify-content: center;
+    gap: 8px;
+}
+
+.grid-block {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 580px;
+    height: auto;
+    border-radius: 16px;
+    padding: 36px 24px;
+    border: 2px solid #F3F4F6;
+    box-shadow: 0px 4px 6px -4px #1018280D;
+    box-shadow: 0px 10px 15px -3px #1018280D;
+}
+
+.trustIcon {
+    width: 80px;
+    height: 80px;
+
+}
+
+.sectionTitle {
+    font-family: "Lora";
+    font-size: 24px;
+    font-weight: 700;
+    color: #111827;
+}
+
+.sectionDescription {
+    font-family: "Satoshi";
+    font-size: 16px;
+    font-weight: 400;
+}

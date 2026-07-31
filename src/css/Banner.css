@@ -1,0 +1,59 @@
+.banner {
+    margin-top: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #005D4B;
+    max-width: 1400px;
+    margin: 300px auto;
+    padding: 70px 0 0 0;
+    border-radius: 32px;
+}
+
+.banner-img {
+    width: 619px;
+    height: auto;
+}
+
+.cta-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+
+.cta-banner h2 {
+    font-family: "Satoshi";
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.banner-btns {
+    display: flex;
+    gap: 20px;
+}
+
+.banner-btn {
+    padding: 11px 16px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.banner-btn img {
+    width: 30px;
+    height: 30px;
+    background: transparent;
+}
+
+.banner-btn p {
+    font-family: "Satoshi";
+    font-size: 17px;
+    font-weight: 500;
+}
+

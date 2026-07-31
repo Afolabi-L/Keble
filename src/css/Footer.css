@@ -1,0 +1,85 @@
+footer {
+    margin-bottom: 200px;
+}
+
+.footer-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.footer-brand {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.keblelogo {
+    width: 133px;
+    height: 36px;
+}
+
+.social-links {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-icon{
+    width: 34px;
+    height: 34px;
+}
+
+.services {
+    display: flex;
+    gap: 50px;
+    margin-right: 100px;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.service-head {
+    font-family: "Satoshi";
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.service-content {
+    font-family: "Satoshi";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.about-info {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 1183px;
+}
+
+.footer-content {
+    font-family: "Satoshi";
+    font-size: 14px;
+    font-weight: 500;
+    color: #1F2937;
+}
+
+.disclaimer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content-top {
+     font-weight: 700;
+}

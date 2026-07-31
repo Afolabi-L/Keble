@@ -1,0 +1,215 @@
+.property-wrap {
+    margin-top: 300px;
+}
+
+.card-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    margin-bottom: 50px;
+}
+
+.wrapheader {
+    font-family: "Lora";
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.property-options {
+    display: flex;
+    gap: 12px;
+}
+
+.option {
+    padding: 7px 25px;
+    border-radius: 45px;
+    border: 1px solid #E5E7EB;
+    font-family: "Satoshi";
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.active {
+    background: #005D4B;
+    color: #FFFFFF;
+}
+
+.propertyblock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 50px;
+}
+.card {
+    width: 400px;
+    height: auto;
+    border: 0.5px solid #ECEEF2;
+    padding: 16px;
+    border-radius: 16px;
+    border: 0,5px solid #ECEEF2;
+}
+
+.propertyheader {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    width: 272px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.property-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+}
+
+.property-title {
+    height: 52px;
+}
+
+.title {
+    font-family: "Satoshi";
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-family: "Satoshi";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.location-img {
+    width: 16px;
+    height: 15px;
+}
+
+.propertycontent {
+    display: flex;
+    flex-direction: column;
+    max-width: 365px;
+    height: auto;
+}
+
+.description {
+    font-family: "Satoshi";
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.propertystats {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.stat {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.stathead, .rate, .status {
+    font-family: "Satoshi";
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.price {
+    font-family: "Satoshi";
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.rate {
+    font-weight: 500;
+    color: #A88345;
+    background: #FBF4E8;
+    padding: 0 7px;
+    width: 43px;
+    height: auto;
+    border-radius: 25px;
+}
+
+.status {
+    padding: 0 10px;
+    width: 54px;
+    height: auto;
+    color: #22C55E;
+    background: #DCFCE7;
+    border-radius: 25px;
+}
+
+hr {
+    border: 0.5px solid #ECEEF2;
+    color: #ECEEF2;
+    margin-bottom: 20px;
+}
+
+.property-cta {
+    text-align: center;
+    padding: 10px 72px;
+    font-size: 14px;
+    font-family: "Satoshi";
+    font-weight: 700;
+    background: #005D4B;
+    color: #F9FAFB;
+    border-radius: 8px;
+    box-shadow: box-shadow: 0px 4px 16px 0px #0F23450D;
+}
+
+.slider-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 26px;
+}
+
+.slider-nav button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 6px -4px #1018280D;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px -4px #1018281A;
+  box-shadow: 0px 10px 15px -3px #1018281A;
+}
+
+.slider-nav img {
+  width: 16px;
+  height: 16px;
+}
+
+.terminal {
+    display: flex;
+    gap: 14px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #E5E7EB; /* inactive grey */
+  cursor: pointer;
+}
+
+.dot.active {
+  background: #005D4B; 
+  width: 12px;
+  height: 12px;
+}

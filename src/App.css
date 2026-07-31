@@ -1,0 +1,23 @@
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+:root{
+  --primary: #337D6F;
+  --bg: #F9FAFB;
+  --btn-bg: #FFFFFF;
+  --text-dark: #111827;
+  --font-f1: "Satoshi";
+  --font-f2: "Lora",sans-serif;
+  
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  scroll-behavior: smooth;
+}
