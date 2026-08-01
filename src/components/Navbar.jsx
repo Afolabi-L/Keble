@@ -1,17 +1,25 @@
-import kebleLogo from "../assets/kebleLogo.svg"
+import kebleLogo from "../assets/kebleLogo.svg";
 import "../css/Navbar.css";
-function Navbar(){
+import NavItem from "./NavItem";
+
+const navLinks = [
+    { id: 1, label: "Fractional Ownership", href: "#" },
+    { id: 2, label: "Own a Home", href: "#" },
+    { id: 3, label: "Buy a Land", href: "#" },
+    { id: 4, label: "Leader Board", href: "#" },
+    { id: 5, label: "Listings", href: "#" },
+    { id: 6, label: "Resources", href: "#" },
+];
+
+function Navbar() {
     return (
-        <header> 
+        <header>
             <nav className="navbar">
-                <img src= {kebleLogo} alt="Keble" className="logo" />
+                <img src={kebleLogo} alt="Keble" className="logo" />
                 <ul className="navlist">
-                    <li><a href="#" className="navitem">Fractional Ownership</a></li>
-                    <li><a href="#" className="navitem">Own a Home</a></li>
-                    <li><a href="#" className="navitem">Buy a Land</a></li>
-                    <li><a href="#" className="navitem">Leader Board</a></li>
-                    <li><a href="#" className="navitem">Listings</a></li>
-                    <li><a href="#" className="navitem">Resources</a></li>
+                    {navLinks.map((link) => (
+                        <NavItem key={link.id} label={link.label} href={link.href} />
+                    ))}
                 </ul>
             </nav>
 
@@ -20,8 +28,7 @@ function Navbar(){
                 <button type="button" className="signup">Sign Up</button>
             </div>
         </header>
-        
-    )
+    );
 }
 
-export default Navbar
+export default Navbar;

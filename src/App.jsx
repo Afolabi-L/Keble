@@ -2,9 +2,9 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import SecurityProviders from "./components/SecurityProviders";
 import "./App.css";
-import OwnershipShowcase from "./components/OwnershipShowcase";
+import Showcase from "./components/Showcase";
 import TrustSection from "./components/TrustSection";
-import PropertyCard from "./components/PropertyCard";
+import PropertyShowcase from "./components/PropertyShowcase";
 import Testimonials from "./components/Testimonials";
 import FAQ from "./components/FAQ";
 import Banner from "./components/Banner";
@@ -17,9 +17,9 @@ function App() {
       <Navbar />
       <Hero />
       <SecurityProviders />
-      <OwnershipShowcase />
+      <Showcase />
       <TrustSection />
-      <PropertyCard />
+      <PropertyShowcase />
       <Testimonials />
       <FAQ />
       <Banner />
